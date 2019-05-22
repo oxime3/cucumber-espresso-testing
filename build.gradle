@@ -1,0 +1,72 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+        
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    targetSdkVersion = 28
+    buildToolsVersion = '28.0.3'
+    minSdkVersion = '14'
+
+    cucumber_javaVersion = '4.3.1'
+
+    snapshotRepository = "https://oss.sonatype.org/content/repositories/snapshots"
+    releaseRepository = "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+
+    isSnapshot = {project.version.endsWith('-SNAPSHOT')}
+}
+
+subprojects { subproject ->
+
+    ext.addAndroidConfig ={
+        android {
+            compileSdkVersion rootProject.ext.targetSdkVersion
+            buildToolsVersion rootProject.ext.buildToolsVersion
+
+            defaultConfig {
+                minSdkVersion rootProject.ext.minSdkVersion
+                targetSdkVersion rootProject.ext.targetSdkVersion
+            }
+
+            compileOptions {
+                sourceCompatibility JavaVersion.VERSION_1_8
+                targetCompatibility JavaVersion.VERSION_1_8
+            }
+
+            lintOptions {
+                abortOnError false
+            }
+
+            testOptions {
+                unitTests {
+                    includeAndroidResources = true
+                }
+            }
+        }
+
+
+    }
+}

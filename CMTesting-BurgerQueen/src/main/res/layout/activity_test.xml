@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="._test">
+
+    <TextView
+        android:id="@+id/dbusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:padding="10dp"
+        android:text="Username"/>
+
+    <TextView
+        android:id="@+id/dbuseremail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:padding="10dp"
+        android:text="Email"/>
+    <TextView
+        android:id="@+id/dblocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:padding="10dp"
+        android:text="Email"/>
+
+
+    <TextView
+        android:id="@+id/dbuserpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:padding="10dp"
+        android:text="Password"/>
+
+    <TextView
+        android:id="@+id/dbstartdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="26sp"
+        android:padding="10dp"
+        android:text="Date"/>
+
+    <Button
+        android:id="@+id/nxtButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorburger"
+        android:textColor="@color/colorWhite"
+        android:layout_margin="10dp"
+        android:text="Confirm"
+        android:textSize="26sp"
+        android:padding="10dp"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>

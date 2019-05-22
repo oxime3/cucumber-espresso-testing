@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coupon_linlay"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/coupon_price"
+        android:layout_width="246dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="22dp"
+        android:gravity="right"
+        android:text="Select Coupon"
+        app:layout_constraintBottom_toTopOf="@+id/christmas_coupon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/new_coupon"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="148dp"
+        android:layout_weight="1"
+        android:text="RadioButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/christmas_coupon"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="76dp"
+        android:layout_weight="1"
+        android:text="RadioButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rbt1price"
+        android:layout_width="87dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="463dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/christmas_coupon"
+        app:layout_constraintTop_toBottomOf="@+id/coupon_price" />
+
+    <TextView
+        android:id="@+id/rbtn2price"
+        android:layout_width="88dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="391dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/new_coupon"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

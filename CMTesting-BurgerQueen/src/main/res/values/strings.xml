@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">BQTabs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="nav_home" translatable="false">nav_home</string>
+    <string name="nav_order" translatable="false">nav_order</string>
+    <string name="nav_cart" translatable="false">nav_cart</string>
+    <string name="Home">Home</string>
+    <string name="Favorites">Favorites</string>
+    <string name="cart" translatable="false">cart</string>
+    <string name="Cart">Order</string>
+
+    //Sign in
+    <string name="signin">SIGN IN</string>
+    <string name="username">Username</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="confrimPassword">Confirm Password</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="gotologintxt">If you already have an account Login Here </string>
+
+    //LogIn
+    <string name="login">LOGIN</string>
+    <string name="gotosignintxt">If you dont have an account Sign Up Here </string>
+
+    //home
+    <string name="burgers">Burgers</string>
+    <string name="sides">Sides</string>
+    <string name="drink">Drink</string>
+    <string name="dessert">Dessert</string>
+    <string name="favorites">Favorites</string>
+    <string name="order">Orders</string>
+    <string name="burger_queen_name">Burger Queen</string>
+    <string name="settings_tips">settings</string>
+    <string name="english">English</string>
+    <string name="ukrainian">Ukrine</string>
+
+    <string-array name="language_optn">
+        <item name="English">English</item>
+        <item name="Chinese">Chinese 中文</item>
+    </string-array>
+
+    <string-array name="burgerlocation">
+        <item name="header">Choose nearest Burger Queen location to where you live</item>
+        <item name="location1">#5, Quingshang Road, Suzhou</item>
+        <item name="location2"> YinXiang Cheng Shopping Center 1 Floor, Suzhou</item>
+        <item name="location3">Global 188, YuanQu HuXi, Wuzhong Qu, Suzhou</item>
+        <item name="location4">#8, Jinjihu Lu, Singa Plaza, Suzhou</item>
+        <item name="location5">#7, Huaqing Jiayuan Complex, Chengfu Road, Haidian, Beijing</item>
+    </string-array>
+    <string-array name="restaurant_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

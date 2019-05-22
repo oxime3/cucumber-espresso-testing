@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml:2:11-40
+		INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+		INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml:4:2-48
+	xmlns:android
+		ADDED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml:3:2-60
+uses-sdk
+INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+		ADDED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+		INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+		ADDED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml
+		INJECTED from T:\Burger Queen Quick Order\BurgerQueenQuickOrder\cucumber-android\src\main\AndroidManifest.xml

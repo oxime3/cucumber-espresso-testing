@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BQTabs</string>
+    <string name="Home">家</string>
+    <string name="Favorites">最爱</string>
+    <string name="Cart">订购</string>
+    <string name="signin">登入</string>
+    <string name="username">用户名</string>
+    <string name="Email">电子邮件</string>
+    <string name="password">密码</string>
+    <string name="confrimPassword">确认密码</string>
+    <string name="confirm">确认</string>
+    <string name="gotologintxt">如果您已有帐户，请单击此处</string>
+    <string name="login">登录</string>
+    <string name="gotosignintxt">如果您没有帐户，请单击此处</string>
+    <string name="burgers">汉堡</string>
+    <string name="sides">双方</string>
+    <string name="drink">饮料</string>
+    <string name="dessert">甜品</string>
+    <string name="favorites">最爱</string>
+    <string name="order">命令</string>
+    <string name="burger_queen_name">汉堡女王</string>
+    <string name="settings_tips">settings</string>
+    <string name="english">English</string>
+    <string name="ukrainian">Ukrine</string>
+
+    <string-array name="language_optn">
+        <item name = "English">English 英语 </item>
+        <item name = "Chinese">Chinese 中文</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="id"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="ID"
+        android:visibility="invisible" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="user"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Change Username" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:inputType="textPassword"
+        android:key="pswd"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Change Password" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="email"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Change Email" />
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/burgerlocation"
+        android:entryValues="@array/restaurant_values"
+        android:key="home_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Change Restaurant" />
+
+</PreferenceScreen>

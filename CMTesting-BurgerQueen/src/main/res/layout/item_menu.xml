@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:id="@+id/menu_id">
+
+    <ImageView
+        android:id="@+id/img_menuitem"
+        android:layout_width="56dp"
+        android:layout_height="61dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <LinearLayout
+        android:layout_width="275dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_item"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Item Name"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Description" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="19dp"
+            android:textColor="@color/colorburger"
+            android:text="Price" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="63dp"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_add_circle_orange"
+            android:id="@+id/rAddButton"/>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_favorite_border_orange"
+            android:id="@+id/rFavButton"/>
+    </LinearLayout>
+
+</LinearLayout>
